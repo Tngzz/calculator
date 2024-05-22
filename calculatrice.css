@@ -1,0 +1,13 @@
+.calculatrice {
+    border: 2px;
+}
+
+.screen {
+    border-width: 1px;
+}
+
+.number {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
