@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="calculatrice.css" rel="stylesheet" />
-    
-
     <title>Calculatrice</title>
 </head>
 <body>
-    <div class="calculatrice">
-        <div class="screen">
-            <p id ="display"></p>
-        </div>
-        <div class ="number">
-            <button class="btn-num" value="1">1</button>
-            <button class="btn-num" value="2">2</button>
-            <button class="btn-num" value="3">3</button>
-            <button class="btn-num" value="4">4</button>
-            <button class="btn-num" value="5">5</button>
-            <button class="btn-num" value="6">6</button>
+    <div class="calculator">
+        <div id="display"></div>
+        <div class="buttons">
             <button class="btn-num" value="7">7</button>
             <button class="btn-num" value="8">8</button>
             <button class="btn-num" value="9">9</button>
-            <button class="btn-num" value="+">+</button>
-            <button class="btn-num" value="-">-</button>
-            <button class="btn-num" value="/">/</button>
-            <button class="btn-num" value="=">=</button>
-            <button class="btn-num" value="CE">CE</button>
+            <button class="btn-num operator" value="/">/</button>
+            
+            <button class="btn-num" value="4">4</button>
+            <button class="btn-num" value="5">5</button>
+            <button class="btn-num" value="6">6</button>
+            <button class="btn-num operator" value="*">*</button>
+            
+            <button class="btn-num" value="1">1</button>
+            <button class="btn-num" value="2">2</button>
+            <button class="btn-num" value="3">3</button>
+            <button class="btn-num operator" value="-">-</button>
+            
+            <button class="btn-num" value="0">0</button>
+            <button class="btn-num" value=".">.</button>
+            <button class="btn-num equal" value="=">=</button>
+            <button class="btn-num operator" value="+">+</button>
+            
+            <button class="btn-num clear" value="CE">CE</button>
         </div>
     </div>
     <script src="calculatrice.js"></script>
